@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Board Exam Results | Study and Pass PH</title>
+  <meta name="description" content="PRC Board Exam results by exam category and year (2020–2026)." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-dot"></span>
+        <span class="brand-text">Study and Pass PH</span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="bar-exam.html">Bar Exam</a>
+        <a href="board-exam.html" class="active">Board Exam</a>
+        <a href="cse-exam.html">CSE Exam</a>
+        <a href="templates-hub.html">Templates Hub</a>
+        <a href="reviewers.html">Reviewers</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <main class="container section">
+    <h1 style="font-size:28px;margin-bottom:8px;">Board Exam Results</h1>
+    <p class="lead">Search an exam category, or pick a year to jump directly to that year's results.</p>
+
+    <section class="section">
+      <div class="cat-card" style="padding:14px;">
+        <h3>Find results fast</h3>
+        <div class="cta-row" style="margin-top:10px;">
+          <input id="boardSearch" type="search" placeholder="Search: CPA, Nursing, LET, MedTech, ECE..." 
+                 style="flex:1;min-width:220px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(238,242,255,.04);color:var(--text);" />
+          <select id="boardYear"
+                  style="min-width:140px;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(238,242,255,.04);color:var(--text);">
+            <option value="">All years</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+          <option value="2025">2025</option>
+          <option value="2026">2026</option>
+          </select>
+        </div>
+        <p id="boardHint" style="color:var(--muted);font-size:13px;margin-top:10px;">
+          Tip: Select a year to jump straight to that year's results per category.
+        </p>
+      </div>
+    </section>
+
+    
+    <section class="section">
+      <div class="ad-box">
+        <div class="ad-title">Advertisement</div>
+        <div class="ad-placeholder">Ad Slot (Responsive)</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Exam Categories</h2>
+      <div class="cards3">
+
+        <article class="cat-card" data-board-card data-title="Nursing (NLE)" data-tags="NLE Nursing (NLE)" data-basehref="board-nursing-results.html" data-yearhref="board-nursing-results-YYYY.html">
+          <h3>Nursing (NLE)</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-nursing-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="LET / LPT" data-tags="LET LET / LPT" data-basehref="board-let-results.html" data-yearhref="board-let-results-YYYY.html">
+          <h3>LET / LPT</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-let-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="Criminology" data-tags="CRIM Criminology" data-basehref="board-crim-results.html" data-yearhref="board-crim-results-YYYY.html">
+          <h3>Criminology</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-crim-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="Civil Engineering" data-tags="CE Civil Engineering" data-basehref="board-ce-results.html" data-yearhref="board-ce-results-YYYY.html">
+          <h3>Civil Engineering</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-ce-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="CPA (Accountancy)" data-tags="CPA CPA (Accountancy)" data-basehref="board-cpa-results.html" data-yearhref="board-cpa-results-YYYY.html">
+          <h3>CPA (Accountancy)</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-cpa-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="Psychometrician" data-tags="PSYCH Psychometrician" data-basehref="board-psych-results.html" data-yearhref="board-psych-results-YYYY.html">
+          <h3>Psychometrician</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-psych-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="Medical Technologist" data-tags="MEDTECH Medical Technologist" data-basehref="board-medtech-results.html" data-yearhref="board-medtech-results-YYYY.html">
+          <h3>Medical Technologist</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-medtech-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="Electronics Engineer (ECE)" data-tags="ECE Electronics Engineer (ECE)" data-basehref="board-ece-results.html" data-yearhref="board-ece-results-YYYY.html">
+          <h3>Electronics Engineer (ECE)</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-ece-results.html">Open</a>
+        </article>
+
+        <article class="cat-card" data-board-card data-title="Mechanical Engineer (ME)" data-tags="ME Mechanical Engineer (ME)" data-basehref="board-me-results.html" data-yearhref="board-me-results-YYYY.html">
+          <h3>Mechanical Engineer (ME)</h3>
+          <p style="color:var(--muted);font-size:14px;margin:8px 0 10px;">Browse results by year (2020–2026).</p>
+          <a class="btn primary" data-board-open href="board-me-results.html">Open</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Study and Pass PH • Built by leiazurin</p>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
